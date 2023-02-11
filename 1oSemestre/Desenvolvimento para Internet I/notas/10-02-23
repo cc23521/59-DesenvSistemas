@@ -1,0 +1,33 @@
+- csszengarden.com
+
+INFRAESTRUTURA DA INTERNET
+- comunicação entre computadores (clientes)
+- lan
+- transmissao de dados em pacotes
+- client > isp > dns > server
+
+TEORIA DAS CORES
+- cor varia conforme meio de propagação e receptor
+- significado das cores
+	- cada cor gera um estimulo
+- RGB
+- CMYK
+- representação hexadecimal de cores
+- contraste: separação entre cores de mesmo tom
+- brilho: qntd de luz branca
+- saturação: qntd de uma determinada cor
+- círculo cromático
+	- primarias, secundarias, terciarias
+	- cores análogas: vizinhas no ciclo cromático
+	- cores complementares: opostas no ciclo cromático
+	- cores neutras: cinza, branco, preto
+	- cores quentes e frias
+	- escolha varia conforme intenção
+		- determina captura da atenção do leitor
+- psicologia das cores
+	- percepção de movimento associada a cada cor: dinâmico Y, estático R, concêntrico B
+- visibilidade das cores
+
+cs50 cores
+top
+curso em video web atualizado
