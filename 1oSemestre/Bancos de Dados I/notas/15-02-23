@@ -1,0 +1,36 @@
+# Para que serve um Banco de Dados
+- nos primórdios
+	- redundância: segurança no acesso aos dados
+	- erro humano associado: consistência e integridade das informações
+- centralização dos dados: não há conflito entre arquivos
+- acesso local via LAN ou remoto ao servidor de bd
+- módulos de segurança
+	- least privilege principle
+	- autenticação
+- módulos de atualização
+
+# Definições inicias
+
+## Dados
+### Segurança de dados
+- RAID
+- cloud
+- backup
+
+### Definição
+- fatos isolados sem significância fora de contexto
+
+## Informação
+- conjunto de dados relacionados e contextualizados
+- organização de dados via bd
+	- permite tratamento de dados 
+
+## Metadados
+- dicionário de dados
+	- descrição dos tipos de dados
+
+## Banco de dados
+- organiza dados para sua representação enquanto aspectos do mundo real
+
+## SGBD
+- integração de softwares para gerenciamento e acesso de múltiplos bancos de dados
