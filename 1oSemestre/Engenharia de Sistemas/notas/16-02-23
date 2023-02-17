@@ -1,0 +1,71 @@
+# METODOLOGIAS ÁGEIS
+
+# Ciclo de vida em cascata
+- análise
+	- requisitos e funcionalidades do software
+- projeto
+	- escolha das tecnologias
+- codificação
+- teste
+- manutenção
+- cons
+	- cada etapa demanda um profissional: custoso
+	- cliente não participa da construção do software
+		- demandas do cliente e tecnologias podem mudar/evoluir durante ciclo de desenvolvimento
+		- pode haver necessidade de criar um sistema completamente novo: retorno do projeto à etapa de Análise
+	- possibilidade de atrito com o cliente por insatisfação quanto ao resultado
+
+# Manifesto ágil
+- indivíduos e interações > ferramentas e processos
+- software funcional > documentação extensa
+	- documentação técnica e para o usuário final
+	- cliente satisfeito com o projeto até o momento vs. cliente de acordo com o projeto finalizado (e possivelmente não satisfatório)
+- colaboração com cliente > negociação de contratos
+	- foco em entrega para o cliente vs. melhor contrato possível ($$)
+	- gerar valor para o cliente
+	- UX
+		- feedbacks constantes evitam alterações dispendiosas do projeto
+- resposta a mudanças > seguir um plano
+	- ciclos mais rápidos permitem melhor adaptação do projeto a mudanças e novas demandas
+
+# Ciclo de Desenvolvimento SCRUM
+- SCRUM puro é raro
+- híbrido Kanban + SCRUM mais comum
+- product backlog
+	- demandas do cliente para o projeto
+- sprint backlog: pequenas listas de funcionalidades a partir do backlog para desenvolvimento em sprints
+- planning e retrospectiva do sprint passado andam de mãos dadas
+	- ocorrem entre cada sprint
+	- no planning avalia-se as prioridades de desenvolvimento do projeto
+		- pontuação de features (escala conforme sequência de Fibonacci) de acordo com avaliação técnica de dificuldade
+			- já foi feito antes?
+			- qual a complexidade de dev?
+- sprint: ciclos do projeto
+	- 2 a 3 semanas de desenvolvimento
+		- comum em empresas com múltiplos times de desenvolvimento
+	- 1 semana: projetos simples
+	- 4 semanas: projetos 
+- daily: reuniões diárias com time dev para discussão do andamento do sprint
+	- curta duração (15 min)
+	- baixa tolerância a atrasos
+	- objetividade
+	- horário e local fixos
+	- no chair (efeito psicológico): quanto antes findar o daily, mais rápido se volta pra cadeira
+- cada ciclo gera um produto funcional para o cliente capaz de agregar valor para ele
+- sprint review
+	- extração de dados estatísticos do sprint
+- artefatos: ferramentas utilizadas para desenvolvimento do sprint
+	- backlog, sprint backlog
+	- burndown graph (registra quantidade de features desenvolvidas)
+		- quanto mais complexa a feature maior sua pontuação
+		- quanto maior o valor agregado para o cliente, maior a pontuação
+## Papéis ágeis
+- Product Owner (PO)
+	- dono do projeto de desenvolvimento de um produto
+	- intermédio entre cliente e time de desenvolvimento
+- SCRUM master (SM)
+	- gerente do SCRUM
+	- garante o bom andamento dos ciclos
+- PO e SM em um único profissional
+	- prejudica entrega de valor para o cliente
+- dev team
