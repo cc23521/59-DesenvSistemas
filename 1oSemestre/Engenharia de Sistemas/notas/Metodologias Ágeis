@@ -1,6 +1,6 @@
 # METODOLOGIAS ÁGEIS
 
-## Ciclo de vida em cascata
+## Ciclo de vida em cascata ou desenvolvimento tradicional de software
 
 - análise
   - requisitos e funcionalidades do software
@@ -62,14 +62,99 @@
     - quanto mais complexa a feature maior sua pontuação
     - quanto maior o valor agregado para o cliente, maior a pontuação
 
-### Papéis ágeis
+## SCRUM
 
-- Product Owner (PO)
-  - dono do projeto de desenvolvimento de um produto
-  - intermédio entre cliente e time de desenvolvimento
-- SCRUM master (SM)
-  - gerente do SCRUM
-  - garante o bom andamento dos ciclos
-- PO e SM em um único profissional
-  - prejudica entrega de valor para o cliente
-- dev team
+### Papeis Ágeis
+
+#### Product Owner (PO)
+
+- define o que deve ser feito
+- dono do projeto de desenvolvimento de um produto
+- intermédio entre cliente e time de desenvolvimento
+- fornecimento de requisitos
+- perfil
+	- bom domínio de SCRUM 
+	- domínio de conhecimento do negócio: conhece as demandas do produto, portanto sabe direcionar o projeto
+	- comunicação excelente
+	- capaz de lidar com mudanças: requisitos podem mudar, podem haver atrasos
+	- capacidade de negociação tanto com o time quanto o cliente
+		- (cliente) adiar data de entrega 
+		- (dev team) bônus, motivação
+	- acessibilidade
+	- proatividade é indispensável
+		- não há uma hierarquia no SCRUM, as atitudes devem partir de cada papel
+	- decisivo: deve resolver impasses 
+		- comunicação com cliente depende do seu conhecimento do produto, necessário tomar decisões para possibilitar comunicação 
+
+#### SCRUM master (SM)
+
+- define como deve ser feito (da melhor forma possível)
+- gerente do SCRUM
+- garante o bom andamento dos ciclos
+- perfil
+	- expertise em SCRUM
+	- líder servidor
+		- deve ser capaz de garantir o fluxo do SCRUM
+	- moderador
+		- meio de campo entre conflitos
+	- resolve problemas
+		- pode não saber como, mas sabe quem pode resolver
+	- acessibilidade
+	- motivador: assegurar cumprimento dos sprints
+	- perceptivo
+		- conversa com demais características: fundamental para moderar, servir, resolver conflitos etc.
+	- mentor
+	- coordenador hábil
+	- introspectivo
+		- ser capaz de identificar lacunas e conflitos que possam afetar o cumprimento do sprint
+- PO e SM em um único profissional ou Product Manager (PM)
+  - prejudica entrega de valor para o cliente: sobrecarga de funções
+
+#### Dev Team
+
+- executa o planejamento
+- conhecimento em SCRUM
+- colaborativo
+	- aumenta produtividade e viabiliza os ciclos curtos de sprint
+- auto-organizado
+	- consequência da ausência de hierarquia
+- altamente motivado
+- proatividade
+- especialistas técnicos
+	- ou busca especializar-se
+- perspectiva multifuncional
+	- não limitar-se à especialidade ou papel de time
+- trabalho em times
+	- alocação de membros de acordo com a demanda de cada time
+- independente
+- responsável
+- intuitivo
+- foco nos objetivos
+- introspectivo
+
+### Artefatos
+
+#### Product Backlog
+
+- definição das prioridades do produto pelo PO
+- cornerstone
+
+#### Sprint Backlog
+
+- define items do sprint
+- concebido no sprint planning
+- suporte a frameworks como Kanban
+
+#### Definição de Pronto
+
+- acordado entre PO e Time
+
+### Cerimônias
+
+#### Sprint Planning
+
+#### Daily Scrum (Daily)
+
+#### Sprint Review
+
+#### Sprint Retrospective
