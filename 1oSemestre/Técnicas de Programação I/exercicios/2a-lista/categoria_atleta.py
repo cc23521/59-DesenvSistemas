@@ -20,3 +20,4 @@ elif idade > 20:
     print("Adulto")
 else:
     print("Idade inválida")
+
