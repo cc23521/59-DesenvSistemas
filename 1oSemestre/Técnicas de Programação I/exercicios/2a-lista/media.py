@@ -22,13 +22,13 @@ while True:
     else:
         break
 
-notaGeografia = sum(geografia) / 3
-notaMatematica = sum(matematica) / 3
-notaPortugues = sum(portugues) / 3
+notaGeografia = sum(geografia)
+notaMatematica = sum(matematica)
+notaPortugues = sum(portugues)
 mediaExercicios = (notaGeografia + notaMatematica + notaPortugues) / 3
 aproveitamento = ((notaGeografia + notaMatematica * 2 + notaPortugues * 3) + mediaExercicios) / 7
 
-print("Média de aproveitamento é {aproveitamento}")
+print(f"Média de aproveitamento é {aproveitamento}")
 print("Conceito do aluno é ", end="")
 if aproveitamento >= 9.0:
     print("A")
