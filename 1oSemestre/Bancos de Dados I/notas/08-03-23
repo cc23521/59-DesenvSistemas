@@ -1,0 +1,24 @@
+- chave primária: principal campo de identificação individual de um exemplar de entidade
+	- campo sublinhado
+	- topo da relação
+- chave primária composta: múltiplos campos identificam exemplares únicos
+
+# Modelo Lógico
+
+- permite focar nos dados (o que) ao invés dos algoritmos (como)
+- mais fácil programar operações com o MER pronto
+- ModeloER - DiagramaER
+
+## Tupla / linha / registro
+
+- instâncias de uma entidade 
+
+## Coluna / campo / atributo
+
+- conjunto de um mesmo tipo de informação
+- pertencimento a um data type específico
+- atributos simples ou indivisíveis (ex. códigos de identificação: RG, CNH, CPF, RA, Matrícula)
+- atributos compostos (ex. endereço: rua, bairro, logradouro, complemento)
+- atributos multivalorados: conjunto de valores de um mesmo tipo (ex. múltiplos telefones, dependentes, disciplinas de um aluno)
+	- fatos no plural encontrados durante uma análise conceitual costumam ser desta categoria
+- atributos opcionais: ocorrem em registros específicos e podem resultar na especialização de entidades
