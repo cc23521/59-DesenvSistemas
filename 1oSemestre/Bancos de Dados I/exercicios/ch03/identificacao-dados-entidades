@@ -1,8 +1,9 @@
 a)
 Estudante: RA, nome, endereço, data de nascimento, gênero, cursos matriculados
 Curso: código, nome, turnos, períodos
-Disciplina: código, nome, carga horária
-Professor: nome, matrícula, turma
+Disciplina: código, nome, carga horária, turmas
+Turma: código da disciplina, número da turma, professor
+Professor: nome, matrícula, turmas, departamento
 
 b)
 Cliente: RG, nome, telefone, endereço
@@ -10,19 +11,21 @@ Produto: nome, tipo, preço, estoque
 Pedido: nomeCliente, dataCompra, valor, produtos
 
 c)
-Livro: ISBN, título, ano, editora, autor(es)
-Autor: nome, nacionalidade
+Livro: ISBN, título, ano, editora, autores, categoria
+Autor: nome, nacionalidade, livros
 Categoria: código, descrição
 
 d)
 Produto: código, nome, categoria, preço
+Categoria: código, descrição
 Cliente: código, nome, endereço, telefone, status, limiteCrédito
-Pedido: número, data, produto(s)
+Pedido: número, data, items
+Item do pedido: número do pedido, número do item, produto solicitado, quantidade solicitada
 
 e)
-Veículo: númeroPlaca, modelo
+Veículo: número, númeroPlaca, modelo
 Cliente: número, nome, CNH, endereço
-Locação: localRetirada, dataRetirada, quilometragem, localDevolução, dataDevolução
+Locação: localRetirada, dataRetirada, quilometragem, localDevolução, dataDevolução, cheque
 Cheque: valor, número, agência, banco
 
 f)
