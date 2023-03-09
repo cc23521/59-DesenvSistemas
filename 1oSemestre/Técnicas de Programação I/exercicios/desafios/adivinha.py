@@ -1,19 +1,20 @@
-from os import system
 from random import randint
+from sys import exit
+from os import system
 
 inicio = 0
 fim = 50
 
 nSecreto = randint(inicio, fim)
-tentativas = 1 
+tentativas = 0 
 while True:
-    nJogador = int(input("Tente um valor: "))
-    if (nJogador == nSecreto):
+    chute = int(input("Tente um valor: "))
+    if (chute == nSecreto):
         print(f"Voce acertou depois de {tentativas} tentativas")
-        break
-    elif (nJogador < nSecreto):
+        exit()
+    elif (chute < nSecreto):
         print("Muito baixo.")
-    elif (nJogador > nSecreto):
+    elif (chute > nSecreto):
         print("Muito alto.")
     tentativas += 1
     system("clear")
