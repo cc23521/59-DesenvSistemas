@@ -1,0 +1,18 @@
+# Cerimônia
+
+- PO trás features candidatas para serem selecionadas
+- entendimento de todas as features (o que e como deve ser feito) e regras de negócio
+- story points
+	- tempo de desenvolvimento e complexidade (determina estimativa de tempo)
+	- escala variável
+
+# User Story Description
+
+- clareza no que dever ser feito em cada atividade
+
+# Estimativa de dev time
+
+- consenso entre devs
+- feature size
+- experiências passadas
+- features de menor prioridade podem ceder tempo para features atrasadas e mais importantes
