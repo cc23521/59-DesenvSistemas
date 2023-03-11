@@ -2,10 +2,7 @@ from random import randint
 from sys import exit
 from os import system, name
 from math import log
-
-verde = "\033[1;32m"
-vermelho = "\033[1;31m"
-preto = "\033[0m"
+from time import sleep
 
 # Jogo de adivinhação com escalonamento exponencial de dificuldade
 limite = 2
@@ -16,8 +13,9 @@ while True:
     print(f"{tentativas} tentativa(s) restante(s)")
     chute = int(input(f"Tente um valor de 0 a {limite}: "))
     if (chute == nSecreto):
-        continuar = input(f"{verde}Deseja jogar o próximo nível? [s/n] {preto}")
+        continuar = input(f"Deseja jogar o próximo nível? [s/n] ")
         if (continuar == 'n'):
+            system("cls")
             exit()
         else:
             # Inicia uma nova partida
@@ -25,7 +23,7 @@ while True:
             nSecreto = randint(0, limite)
             tentativas = round(log(limite, 2))
             nivel += 1
-            system("clear" if name == "posix" else "cls")
+            system("cls")
             print(f"NÍVEL {nivel}")
     else:
         tentativas -= 1
@@ -35,7 +33,12 @@ while True:
             else:
                 print("Muito alto.")
         else:
-            print(f"{vermelho}Suas chances acabaram{preto}")
-            print(f"{vermelho}O número secreto é {nSecreto}{preto}")
-            exit()
-
+            print(f"Suas chances acabaram")
+            print(f"O número secreto é {nSecreto}")
+            sleep(2)
+            limite = 2
+            nSecreto = randint(0, limite)
+            tentativas = round(log(limite, 2))
+            nivel = 0
+            system("cls")
+            print(f"NÍVEL {nivel}")
